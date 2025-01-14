@@ -4,10 +4,13 @@ html {
     background-size: cover;       
     background-repeat: no-repeat; 
     background-position: center;
+    height: 100%;
+    overflow: hidden;
 }
 
 html, body {
     overflow-y: hidden;
+    height: 100%;
 }
 
 @font-face {
@@ -389,6 +392,7 @@ footer {
         margin-left: 1em auto;
         width: 50%;
         height: 100vh;
+        overflow: hidden;
     }
     
     figure { 
@@ -396,6 +400,7 @@ footer {
         padding-left: 3pt;
         border-left: 3pt solid #f6f1ea;
         height: 100vh;
+        overflow: hidden;
     }
     
     #info {
@@ -444,6 +449,7 @@ footer {
         width: 50%;
         margin-left: 6pt; 
         border-left: 3pt solid #f6f1ea;
+        overflow: hidden;
     }
     
     article:nth-of-type(1) > aside {
@@ -461,6 +467,7 @@ footer {
         background-position: bottom;
         border-right: 3pt solid #f6f1ea;
         margin-right: 6pt;
+        overflow: hidden;
     }
     
     figure.figure-blue, aside {
@@ -795,7 +802,8 @@ footer {
 
 @media (max-width: 414px) {
     html, body {
-        overflow-y: visible;
+        overflow: hidden;
+        height: 100%;
     }
     
     article {
