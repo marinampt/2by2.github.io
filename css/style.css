@@ -803,7 +803,6 @@ footer {
 @media (max-width: 414px) {
     html, body {
     overflow-y: auto; 
-    overflow-x: hidden; 
     height: 100%;
     margin: 0;
     padding: 0;
