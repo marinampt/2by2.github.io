@@ -705,17 +705,17 @@ footer {
         width: 50px;
         opacity: 1;
         position: absolute;
-        top: 80px;
+        top: 120px;
         bottom: 100%;
-        left: 450px;
+        left: 400px;
     }
 
     img.door-drawing-bn {
         width: 50px;
         opacity: 1;
         position: absolute;
-        top: 100px; 
-        left: 445px; 
+        top: 120px; 
+        left: 400px; 
         bottom: auto;
     }
 
@@ -802,9 +802,13 @@ footer {
 
 @media (max-width: 414px) {
     html, body {
-        overflow: hidden;
-        height: 100%;
-    }
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
     
     article {
         display: flex;
@@ -851,12 +855,14 @@ footer {
 
     img.ornament-bn {
         width: 86%;
+        max-width: 100%; 
+        height: auto;    
         opacity: 1;
     }
 
     a {
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 15pt;
+        line-height: 15pt;
     }
 
     img.door-drawing-m {
@@ -878,13 +884,13 @@ footer {
     }
 
     h1, h2, button {
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 15pt;
+        line-height: 15pt;
     }
 
     h3 {
-        font-size: 11.5pt;
-        line-height: 11.5pt;
+        font-size: 12pt;
+        line-height: 15pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
         text-decoration-thickness: 12pt;
@@ -892,8 +898,8 @@ footer {
     }
 
     p {
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 15pt;
+        line-height: 15pt;
         font-family: "Symbola", sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -901,8 +907,8 @@ footer {
     }
     
     p:hover {
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 15pt;
+        line-height: 15pt;
         font-family: "Symbola", sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -911,8 +917,8 @@ footer {
 
     .custom-at {
         font-family: "Arial Narrow", sans-serif;
-        font-size: 10pt;
-        line-height: 14pt;
+        font-size: 11pt;
+        line-height: 15pt;
         display: inline-block;
     }
 
@@ -923,21 +929,21 @@ footer {
     }
 
     footer {
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 15pt;
+        line-height: 15pt;
     }
 
     .spacing {
         margin: 20px auto;
         padding: 20px;
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 18pt;
+        line-height: 18pt;
         width: calc( 90% );
     }
 
     .close-x {
-        font-size: 14pt;
-        line-height: 14pt;
+        font-size: 15pt;
+        line-height: 15pt;
         position: fixed;
         bottom: 0;
         right: 0; 
