@@ -803,6 +803,7 @@ footer {
 @media (max-width: 414px) {
     html, body {
     overflow-y: auto; 
+    overflow-x: hidden; 
     height: 100%;
     margin: 0;
     padding: 0;
@@ -850,6 +851,7 @@ footer {
         background-image: url("/image/IMG_2241.gif");
         background-size: cover;
         background-position: center;
+        overflow: visible;
     }
 
     img.ornament-bn {
