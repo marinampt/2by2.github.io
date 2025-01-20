@@ -830,10 +830,10 @@ footer {
         overflow: hidden;
     }
     #info2 {
-        position: fixed;    /* Make sure it stays at the bottom of the viewport */
-        bottom: 0;          /* Align at the bottom */
+        position: absolute; /* Ensure it aligns to the bottom of the container */
+        bottom: 0;
         width: 100%;
-        transition: bottom 0.3s ease-out;   /* Smooth transition if it moves up */
+        text-align: left; /* Center text within the element */
     }
     
     #info2 h1 {
