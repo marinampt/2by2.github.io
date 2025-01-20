@@ -829,6 +829,16 @@ footer {
         border-bottom: 3pt solid #f6f1ea;
         overflow: hidden;
     }
+    #info2 {
+        position: fixed;    /* Make sure it stays at the bottom of the viewport */
+        bottom: 0;          /* Align at the bottom */
+        width: 100%;
+        transition: bottom 0.3s ease-out;   /* Smooth transition if it moves up */
+    }
+    
+    #info2 h1 {
+        margin-bottom: 10vh; /* Optional: Adjust to prevent text from getting cut off at the bottom */
+    }
 
     figure {
         width: 97%;
@@ -875,7 +885,7 @@ footer {
         width: 30px;
         opacity: 1;
         position: absolute;
-        top: 50px;
+        top: 100px;
         bottom: 100%;
         left: 240px;
     }
@@ -884,7 +894,7 @@ footer {
         width: 30px;
         opacity: 1;
         position: absolute;
-        top: 50px; 
+        top: 100px; 
         left: 240px; 
         bottom: auto;
     }
