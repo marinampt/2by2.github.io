@@ -697,8 +697,8 @@ footer {
     }
 
     a {
-        font-size: 24pt;
-        line-height: 24pt;
+        font-size: 22pt;
+        line-height: 22pt;
     }
 
     img.door-drawing-m {
@@ -720,13 +720,13 @@ footer {
     }
 
     h1, h2, button {
-        font-size: 24pt;
-        line-height: 24pt;
+        font-size: 22pt;
+        line-height: 22pt;
     }
 
     h3 {
-        font-size: 20pt;
-        line-height: 20pt;
+        font-size: 18pt;
+        line-height: 18pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
         text-decoration-thickness: 20pt;
@@ -734,8 +734,8 @@ footer {
     }
 
     p {
-        font-size: 24pt;
-        line-height: 24pt;
+        font-size: 22pt;
+        line-height: 22pt;
         font-family: "Symbola", sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -743,8 +743,8 @@ footer {
     }
     
     p:hover {
-        font-size: 24pt;
-        line-height: 24pt;
+        font-size: 22pt;
+        line-height: 22pt;
         font-family: "Symbola", sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -753,8 +753,8 @@ footer {
 
     .custom-at {
         font-family: "Arial Narrow", sans-serif;
-        font-size: 20pt;
-        line-height: 24pt;
+        font-size: 18pt;
+        line-height: 22pt;
         display: inline-block;
     }
 
@@ -778,8 +778,8 @@ footer {
     }
 
     .close-x {
-        font-size: 24pt;
-        line-height: 24pt;
+        font-size: 22pt;
+        line-height: 22pt;
         position: fixed;
         bottom: 0;
         right: 0; 
