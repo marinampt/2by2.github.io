@@ -48,7 +48,7 @@ img {
 }
 
 img.door-drawing-m {
-    width: 90px;
+    width: 80px;
     opacity: 1;
     position: absolute;
     top: 35%;
@@ -57,7 +57,7 @@ img.door-drawing-m {
 }
 
 img.door-drawing-bn {
-    width: 90px;
+    width: 80px;
     height: auto;
     opacity: 1;
     position: absolute;
