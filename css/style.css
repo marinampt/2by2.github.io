@@ -822,21 +822,22 @@ footer {
         display: flex;
         justify-content: flex;
         align-items: flex;
-        border-left: 3pt solid #f6f1ea;
+        border-left: 1pt solid #f6f1ea;
         margin-left: 1em auto;
-        border-right: 3pt solid #f6f1ea;
+        border-right: 1pt solid #f6f1ea;
         margin-right: 1em auto;
-        border-bottom: 3pt solid #f6f1ea;
+        border-bottom: 1pt solid #f6f1ea;
         overflow: hidden;
     }
     #info2 {
         position: absolute; 
         bottom: 0;
         width: 100%;
-        text-align: left;
+        text-align: left; /* Center text within the element */
+    }
     
     #info2 h1 {
-        margin-bottom: 10vh; 
+        margin-bottom: 10vh; /* Optional: Adjust to prevent text from getting cut off at the bottom */
     }
 
     figure {
@@ -848,7 +849,7 @@ footer {
         position: absolute;
         top: 150%;
         transform: translateY(50%);
-        border-left: 3pt solid #f6f1ea;
+        border-left: 1pt solid #f6f1ea;
         margin-left: .5em;
         border-right: 3pt solid #f6f1ea;
         margin-right: 1em auto;
@@ -866,7 +867,7 @@ footer {
     
 
     img.ornament-bn {
-        width: 70%;
+        width: 80%;
         height: auto; 
         max-width: 500px; 
         opacity: 1;
