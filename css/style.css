@@ -851,7 +851,7 @@ footer {
         transform: translateY(50%);
         border-left: 1pt solid #f6f1ea;
         margin-left: .5em;
-        border-right: 3pt solid #f6f1ea;
+        border-right: 1pt solid #f6f1ea;
         margin-right: 1em auto;
         overflow: hidden; 
     }
