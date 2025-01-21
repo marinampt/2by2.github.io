@@ -869,9 +869,8 @@ footer {
     img.ornament-bn {
         width: 80%;
         height: auto; 
-        max-width: 500px; 
+        max-width: 300px; 
         opacity: 1;
-        display: inline-block; 
         margin-left: 0;
     }
     
@@ -884,19 +883,13 @@ footer {
     img.door-drawing-m {
         width: 30px;
         opacity: 1;
-        position: absolute;
-        top: 100px;
-        bottom: 100%;
-        left: 240px;
+        margin-left: 0;
     }
 
     img.door-drawing-bn {
         width: 30px;
         opacity: 1;
-        position: absolute;
-        top: 100px; 
-        left: 240px; 
-        bottom: auto;
+        margin-left: 0;
     }
 
     h1, h2, button {
