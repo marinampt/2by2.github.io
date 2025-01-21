@@ -38,38 +38,16 @@ a {
     line-height: 34pt;
 }
 
-img {
-    margin-top: -25vh;
-    opacity: 0.5;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    z-index: 0;
-}
-
-img.door-drawing-m {
-    width: 80px;
-    opacity: 1;
-    position: absolute;
-    top: 35%;
-    left: 46%; 
-    transform: translate(-50%, -50%); 
-}
-
+img.door-drawing-m,
 img.door-drawing-bn {
     width: 80px;
-    height: auto;
     opacity: 1;
+    right: 0; 
+    margin: 0;
+    padding-right: 3pt; 
     position: absolute;
-    top: 35%; 
-    left: 46%; 
-    transform: translate(-50%, -50%);
 }
 
-img.ornament-bn {
-    width: 100%;
-    opacity: 1;
-}
 
 html, body, section, article, aside {
     min-height: 100%;
@@ -79,7 +57,6 @@ article > aside {
     position: sticky;
     top: 0;
     border-left: 3pt solid #f6f1ea;
-    padding-left: 3pt;
     margin-left: 1em auto;
     width: 50%;
     height: 100vh;
@@ -90,19 +67,6 @@ figure {
     padding-left: 3pt;
     border-left: 3pt solid #f6f1ea;
     height: 100vh;
-}
-
-#info {
-    position: absolute;
-    align-items:bottom;
-    bottom: 0;
-    left: 0;
-}
-
-#info2 {
-    position: absolute;
-    bottom: 0;  
-    width: 100%;
 }
 
 #center {
@@ -348,31 +312,12 @@ footer {
         box-sizing: border-box;
     }
     
-    img {
-        margin-top: -25vh;
-        opacity: 0.5;
-        width: auto;
-        max-width: 100%;
-        height: auto;
-    }
-    
-    img.door-drawing-m {
-        width: 90px;
-        opacity: 1;
-        position: absolute;
-        top: 26%;
-        left: 300px; 
-        transform: translate(-50%, -50%); 
-    }
-    
+    img.door-drawing-m,
     img.door-drawing-bn {
-        width: 90px;
-        height: auto;
+        width: 80px;
         opacity: 1;
-        position: absolute;
-        top: 35%; 
-        left: 46%; 
-        transform: translate(-50%, -50%);
+        display: block;
+        margin: 0 auto; 
     }
     
     img.ornament-bn {
@@ -388,7 +333,6 @@ footer {
         position: sticky;
         top: 0;
         border-left: 3pt solid #f6f1ea;
-        padding-left: 3pt;
         margin-left: 1em auto;
         width: 50%;
         height: 100vh;
@@ -401,19 +345,6 @@ footer {
         border-left: 3pt solid #f6f1ea;
         height: 100vh;
         overflow: hidden;
-    }
-    
-    #info {
-        position: absolute;
-        align-items:bottom;
-        bottom: 0;
-        left: 0;
-    }
-    
-    #info2 {
-        position: absolute;
-        bottom: 0;  
-        width: 100%;
     }
     
     #center {
@@ -660,10 +591,8 @@ footer {
         display: flex;
         justify-content: flex;
         align-items: flex;
-        border-left: 3pt solid #f6f1ea;
         margin-left: 1em auto;
         border-right: 3pt solid #f6f1ea;
-        margin-right: 1em auto;
         border-bottom: 3pt solid #f6f1ea;
         overflow: hidden;
     }
@@ -701,22 +630,15 @@ footer {
         line-height: 22pt;
     }
 
-    img.door-drawing-m {
-        width: 50px;
-        opacity: 1;
-        position: absolute;
-        top: 120px;
-        bottom: 100%;
-        left: 400px;
-    }
-
+    img.door-drawing-m,
     img.door-drawing-bn {
         width: 50px;
         opacity: 1;
-        position: absolute;
-        top: 120px; 
-        left: 400px; 
-        bottom: auto;
+        position: fixed;
+        top: 3pt; 
+        right: 3pt;
+        margin: 0;
+        padding: 0; 
     }
 
     h1, h2, button {
@@ -781,9 +703,8 @@ footer {
         font-size: 22pt;
         line-height: 22pt;
         position: fixed;
-        bottom: 0;
-        right: 0; 
-        padding-right: 3pt; 
+        bottom: 3pt;
+        right: 3pt; 
         margin: 0;
         padding: 0;
     }
@@ -802,7 +723,7 @@ footer {
 
 @media (max-width: 414px) {
     html, body {
-    overflow-y: auto; 
+    overflow-y: hidden; 
     overflow-x: hidden; 
     height: 100%;
     margin: 0;
@@ -822,22 +743,11 @@ footer {
         display: flex;
         justify-content: flex;
         align-items: flex;
-        border-left: 1pt solid #f6f1ea;
         margin-left: 1em auto;
         border-right: 1pt solid #f6f1ea;
         margin-right: 1em auto;
         border-bottom: 1pt solid #f6f1ea;
         overflow: hidden;
-    }
-    #info2 {
-        position: absolute; 
-        bottom: 0;
-        width: 100%;
-        text-align: left; /* Center text within the element */
-    }
-    
-    #info2 h1 {
-        margin-bottom: 10vh; /* Optional: Adjust to prevent text from getting cut off at the bottom */
     }
 
     figure {
@@ -867,7 +777,7 @@ footer {
     
 
     img.ornament-bn {
-        width: 80%;
+        width: 84%;
         height: auto; 
         max-width: 300px; 
         opacity: 1;
@@ -880,16 +790,15 @@ footer {
         line-height: 15pt;
     }
 
-    img.door-drawing-m {
-        width: 30px;
-        opacity: 1;
-        margin-left: 0;
-    }
-
+    img.door-drawing-m,
     img.door-drawing-bn {
         width: 30px;
         opacity: 1;
-        margin-left: 0;
+        position: fixed;
+        top: 3pt; 
+        right: 3pt;
+        margin: 0;
+        padding: 0; 
     }
 
     h1, h2, button {
@@ -953,10 +862,9 @@ footer {
     .close-x {
         font-size: 15pt;
         line-height: 15pt;
-        position: fixed;
-        bottom: 0;
-        right: 0; 
-        padding-right: 3pt; 
+        position: absolute;
+        bottom: 3pt;
+        right: 3pt; 
         margin: 0;
         padding: 0;
     }
