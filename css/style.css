@@ -153,7 +153,7 @@ h3 {
     line-height: 28pt;
     font-family: "Symbola", sans-serif;
     text-decoration: line-through;
-    text-decoration-thickness: 28pt;
+    text-decoration-thickness: 40pt;
     color: #1300ff;
 }
 
@@ -451,7 +451,7 @@ footer {
         line-height: 21pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
-        text-decoration-thickness: 23pt;
+        text-decoration-thickness: 32pt;
         color: #1300ff;
     }
 
@@ -651,7 +651,7 @@ footer {
         line-height: 18pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
-        text-decoration-thickness: 20pt;
+        text-decoration-thickness: 30pt;
         color: #1300ff;
     }
 
@@ -811,7 +811,7 @@ footer {
         line-height: 17pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
-        text-decoration-thickness: 12pt;
+        text-decoration-thickness: 20pt;
         color: #1300ff;
     }
 
