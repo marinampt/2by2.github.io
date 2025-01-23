@@ -719,17 +719,15 @@ footer {
 
 
 
-
-
 @media (max-width: 414px) {
     html, body {
-    overflow-y: hidden; 
-    overflow-x: hidden; 
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
+        overflow-y: hidden; 
+        overflow-x: hidden; 
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
     
     article {
         display: flex;
@@ -743,28 +741,30 @@ footer {
         display: flex;
         justify-content: flex;
         align-items: flex;
-        margin-left: 1em auto;
-        border-right: 1pt solid #f6f1ea;
-        margin-right: 1em auto;
-        border-bottom: 1pt solid #f6f1ea;
+        margin: 1em auto;
+        border: 1pt solid #f6f1ea;
+        border-top: 0 !important;
+        box-sizing: border-box;
         overflow: hidden;
     }
-
+    
     figure {
         width: 97%;
-        height: 50vh;
+        height: 50vh; 
         display: flex;
         justify-content: flex-start;
         align-items: flex-end; 
         position: absolute;
-        top: 150%;
+        top: 140%;
         transform: translateY(50%);
-        border-left: 1pt solid #f6f1ea;
-        margin-left: .5em;
-        border-right: 1pt solid #f6f1ea;
-        margin-right: 1em auto;
+        border: 1pt solid #f6f1ea;
+        border-right: 1pt solid #f6f1ea !important;
+        border-bottom: 0 !important;
+        margin: 1em auto;
+        box-sizing: border-box;
         overflow: hidden; 
     }
+    
     
     figure > .figure-blue {
         height: auto; 
@@ -856,7 +856,7 @@ footer {
         padding: 20px;
         font-size: 18pt;
         line-height: 18pt;
-        width: calc( 90% );
+        width: calc(90%);
     }
 
     .close-x {
