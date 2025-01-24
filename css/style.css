@@ -756,7 +756,7 @@ footer {
         align-items: flex-end; 
         position: absolute;
         top: 140%; 
-        left: 47.25%;
+        left: 48%;
         transform: translateX(-50%) translateY(50%); 
         border: 1pt solid #f6f1ea;
         border-right: 1pt solid #f6f1ea !important;
@@ -778,7 +778,7 @@ footer {
     
 
     img.ornament-bn {
-        width: 76%;
+        width: 74%;
         height: auto; 
         max-width: 300px; 
         opacity: 1;
