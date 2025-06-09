@@ -284,20 +284,14 @@ html[data-overflow-hidden] {
 }
 
 body {
-    --fs: var(--font-default--font-size);
-    --lh: var(--font-default--line-height);
 font-family: 'GrotesqueMTStd', sans-serif;    
 font-size: var(--font-default--font-size);
-    letter-spacing: var(--font-default--letter-spacing);
-    line-height: var(--font-default--line-height);
     margin: 0;
     padding: 0;
 }
 
 * {
     box-sizing: border-box;
-    text-decoration-thickness: var(--font-default--text-decoration-thickness);
-    text-underline-offset: var(--font-default--text-underline-offset);
 }
 
 img {
@@ -333,10 +327,6 @@ a {
     margin: 0;
     padding: var(--unit--vertical) var(--unit--horizontal);
     padding-top: calc(var(--unit--vertical) * 1);
-}
-
-.navigation-menu--button:hover {
-    color: var(--color--pink);
 }
 
 .layout-sticky-logo--root {
@@ -394,6 +384,7 @@ a {
     grid-template-columns: 1fr 1fr;
     margin: var(--unit--spacer) var(--unit--horizontal--double);
     margin-top: 0;
+    margin-left: 24px;
 }
 
 @media (max-width: 768px) {
@@ -472,7 +463,6 @@ a {
     content: "";
     display: block;
     height: calc(100% - .2em);
-    margin-top: .1em;
     width: 100%;
 }
 
@@ -496,9 +486,7 @@ a {
     transform: translateY(0);
 }
 
-.i18n--root[disabled] {
-    pointer-events: none;
-}
+
 .layout-horizontal-line--root {
     border-bottom: var(--stroke--thick) dotted currentColor;
     height: 0;
@@ -575,16 +563,16 @@ a {
     margin-bottom: var(--unit--spacer);
 }
 
-.pages-index-clock--hour:not([data-outside-of-opening-hours]),
-.pages-index-clock--hour[data-current] {
+.pages-index-mvmt--hour:not([data-outside-of-opening-hours]),
+.pages-index-mvmt--hour[data-current] {
     display: none;
 }
 
-.pages-index-clock--hour:not([data-current]):not([data-within-openings-hours]) {
+.pages-index-mvmt--hour:not([data-current]):not([data-within-openings-hours]) {
     display: none;
 }
 
-.pages-index-clock--root {
+.pages-index-mvmt--root {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -592,7 +580,7 @@ a {
     justify-content: center;
 }
 
-.pages-index-clock--container {
+.pages-index-mvmt--container {
     --width: calc((var(--width-percentage, 0%) - var(--height--site-header)) * 0.85);
     aspect-ratio: 1;
     position: relative;
@@ -601,28 +589,22 @@ a {
 }
 
 @media (max-width: 768px) {
-    .pages-index-clock--container {
+    .pages-index-mvmt--container {
         --width: calc((var(--width-percentage, 0%)) * 1 - var(--unit--vertical) * 4);
     }
 }
 
-@media (max-width: 768px) {
-    #\39-balusters {
-      font-size: 24px;
-    }
-  }
-
-.pages-index-clock--svgOutline {
+.pages-index-mvmt--svgOutline {
     left: 0;
     position: absolute;
     top: 0;
 }
 
-.pages-index-clock--svgOutline * {
+.pages-index-mvmt--svgOutline * {
     fill: var(--color--primary);
 }
 
-.pages-index-clock--wiser {
+.pages-index-mvmt--wiser {
     display: flex;
     height: 50%;
     left: 50%;
@@ -632,17 +614,17 @@ a {
     transform-origin: 0 100%;
 }
 
-.pages-index-clock--wiser[data-smooth-transition] {
+.pages-index-mvmt--wiser[data-smooth-transition] {
     transition: transform 0.25s ease;
 }
 
-.pages-index-clock--wiserContent {
+.pages-index-mvmt--wiserContent {
     flex: 1;
     position: relative;
 }
 
-.pages-index-clock--wiserContent .pages-index-clock--svgHour,
-.pages-index-clock--wiserContent .pages-index-clock--svgMinute {
+.pages-index-mvmt--wiserContent .pages-index-mvmt--svgHour,
+.pages-index-mvmt--wiserContent .pages-index-mvmt--svgMinute {
     bottom: -10%;
     height: 75%;
     left: 50%;
@@ -652,7 +634,7 @@ a {
     width: auto;
 }
 
-.pages-index-clock--wiserContent .pages-index-clock--svgSecond {
+.pages-index-mvmt--wiserContent .pages-index-mvmt--svgSecond {
     bottom: -10%;
     height: 80%;
     left: 50%;
@@ -662,19 +644,19 @@ a {
     width: auto;
 }
 
-.pages-index-clock--svgSecond {
+.pages-index-mvmt--svgSecond {
     fill: var(--color--accent);
 }
 
-.pages-index-clock--svgHour *,
-.pages-index-clock--svgMinute * {
+.pages-index-mvmt--svgHour *,
+.pages-index-mvmt--svgMinute * {
     fill: none;
     stroke: var(--color--primary);
     stroke-width: 20;
     stroke-linecap: round;
 }
 
-.pages-index-clock--svgMinute * {
+.pages-index-mvmt--svgMinute * {
     stroke: var(--color--primary);
 }
 
@@ -763,7 +745,6 @@ a {
 }
 
 .pages-index--section3:not(:last-child) {
-    margin-bottom: var(--unit--vertical--sextuple);
     background-color: #c1c1c1;
 }
 
