@@ -46,10 +46,10 @@ html {
 }
 
 article {
-    position: sticky;
+    position: relative;
     top: 0;
     width: 100%;
-    height: 270vh;
+    min-height: 100vh;
 }
 
 article::before {
@@ -225,32 +225,17 @@ li {
 }
 	
 .white-bg-padding {
-		-webkit-max-width: calc(100% - 84px);
-		-moz-max-width: calc(100% - 84px);
-		max-width: calc(100% - 84px);
-		padding:28px;
+	-webkit-max-width: calc(100% - 84px);
+	-moz-max-width: calc(100% - 84px);
+	max-width: calc(100% - 84px);
+	padding:28px;
 }
 	
 .m-wide {
-		column-span: all;
+	column-span: all;
 }
 	
 	.m-wide-content {
 		column-count: 1;
-	}
-	
-	blockquote {
-		margin:0;
-	}
-	
-	blockquote p {
-		display: inline-block;
-		padding: 0 0 0 14.5px;
-		margin: 0 0 20px -14.5px;
-	}
-	
-	blockquote + h6 {
-		margin: -20px 0 0 20px;
-		text-indent: -20px;
 	}
 	
