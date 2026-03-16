@@ -5,6 +5,13 @@ html {
     background-repeat: no-repeat; 
     background-position: center;
     min-height: 100%;
+    scrollbar-width: none;      
+    -ms-overflow-style: none;  
+}
+
+html::-webkit-scrollbar {
+  width: 0px;                
+  height: 0px;           
 }
 
 html,
@@ -160,11 +167,13 @@ nav {
   margin-top: 6pt;
   left: 0;
   top: 0;
+  cursor: url("/image/orange.cur"), auto;
 }
 
 nav a {
   text-decoration: none;
   color: inherit;
+  cursor: url("/image/orange.cur"), auto;
 }
 
 #menu-bar {
@@ -210,23 +219,30 @@ nav a {
 #menu-bar.active {
   display: flex;
   cursor: url("/image/orange.cur"), auto;
-
 }
 
 #menu-bar::-webkit-scrollbar {
   width: 0; 
+  cursor: url("/image/orange.cur"), auto;
 }
 
 @media (max-width: 768px) {
   #menu-bar {
     display: none;
-    background-color:#000000;
+    background-color: #000000;
     font-size: 34pt;
     line-height: 34pt;
+    position: fixed;
+    top: 0;
+    left: 6pt;
+    right: 6pt;      
     border-left: 3pt solid #f6f1ea;
-    left: 6pt;  
     border-right: 3pt solid #f6f1ea;
-   right: 6pt; 
+    box-sizing: border-box;  
+    width: auto;             
+    height: 100vh;           
+    overflow-y: auto;  
+    cursor: url("/image/orange.cur"), auto;     
   }
 }
 
@@ -331,7 +347,6 @@ section {
 
   .link:hover {
     padding-bottom: 2px;
-    border-bottom: 1px solid black;
   }
 
   .completed:hover {
