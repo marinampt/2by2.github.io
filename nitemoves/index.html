@@ -4,9 +4,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" link href="../image/favicon.png">
     <link rel="stylesheet" href="../nitemoves/css/style.css" />
   </head>
   <body>
+    <button id="menu-toggle" class="menu-button">&#9776;</button>
     <nav id="menu-bar">
       <a class="menu-item">Nite Moves</a><br/>
       <a class="menu-item" href="#2">2</a>
@@ -433,6 +435,31 @@
       crossorigin="anonymous"
       src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver%2CIntersectionObserverEntry&flags=gated"
     ></script>
+    <script>
+const menuToggle = document.getElementById("menu-toggle");
+const menuBar = document.getElementById("menu-bar");
+
+menuToggle.addEventListener("click", () => {
+  menuBar.classList.toggle("active");
+});
+
+const menuItems = document.querySelectorAll("#menu-bar .menu-item[href]");
+
+menuItems.forEach(item => {
+  item.addEventListener("click", (event) => {
+    event.preventDefault(); 
+
+    const targetId = item.getAttribute("href").substring(1);
+    const targetSection = document.getElementById(targetId);
+
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+
+    menuBar.classList.remove("active");
+  });
+});
+  </script>
     <script src="../nitemoves/scripts/menuSync.js" charset="utf-8"></script>
     <script src="../nitemoves/scripts/mobileMenu.js" charset="utf-8"></script>
   </body>
