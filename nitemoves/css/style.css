@@ -175,6 +175,12 @@ nav a {
   overflow-y: auto; 
   display: flex;
   flex-direction: column;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+#menu-bar::-webkit-scrollbar {
+  width: 0; 
 }
 
 @media (max-width: 768px) {
