@@ -14,6 +14,19 @@ html::-webkit-scrollbar {
   height: 0px;           
 }
 
+*,
+*::before,
+*::after {
+  cursor: url("/image/orange.cur"), auto !important;
+}
+
+#menu-bar,
+#menu-bar a,
+#menu-toggle,
+#menu-toggle * {
+  cursor: url("/image/orange.cur"), auto !important;
+}
+
 html,
 body,
 p {
@@ -151,6 +164,7 @@ button:hover {
 
 .menu-bar {
   display: none;
+  cursor: url("/image/orange.cur"), auto;
 }
 
 .menu-button {
@@ -187,15 +201,15 @@ nav a {
   scrollbar-width: none; 
   -ms-overflow-style: none; 
   cursor: url("/image/orange.cur"), auto;
-
 }
 
 #menu-toggle {
   display: none;
   position: fixed;
-  top: 12pt;
-  right: 12pt;
-  font-size: 2rem;
+  top: 16px;               /* distance from top */
+  right: 16px;             /* distance from right */
+  width: 40px;             /* fixed width */
+  height: 40px;            /* fixed height */
   background: none;
   border: none;
   color: #f6f1ea;
@@ -343,10 +357,13 @@ section {
 @media (min-width: 1000px) {
   .button:hover {
     transform: skewX(-12deg);
+    cursor: url("/image/orange.cur"), auto;
   }
 
   .link:hover {
     padding-bottom: 2px;
+    cursor: url("/image/orange.cur"), auto;
+
   }
 
   .completed:hover {
@@ -378,6 +395,7 @@ section {
     margin: 0;
     padding-left: 3pt;
     padding-top: 6pt;
+    cursor: url("/image/orange.cur"), auto;
   }
 
   main {
@@ -397,6 +415,7 @@ section {
   display: flex;
   flex-direction: column;
   z-index: 1000;
+  cursor: url("/image/orange.cur"), auto;
 }
 
 .menu-bar .menu-item {
@@ -405,10 +424,13 @@ section {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  cursor: url("/image/orange.cur"), auto;
 }
 
   .menu-button {
     height: auto;
+    cursor: url("/image/orange.cur"), auto;
+
   }
 
   .wrap {
