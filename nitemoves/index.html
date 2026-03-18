@@ -436,30 +436,28 @@
       src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver%2CIntersectionObserverEntry&flags=gated"
     ></script>
     <script>
-const menuToggle = document.getElementById("menu-toggle");
-const menuBar = document.getElementById("menu-bar");
-
-menuToggle.addEventListener("click", () => {
-  menuBar.classList.toggle("active");
-});
-
 const menuItems = document.querySelectorAll("#menu-bar .menu-item[href]");
+const sections = document.querySelectorAll("main section");
 
 menuItems.forEach(item => {
-  item.addEventListener("click", (event) => {
-    event.preventDefault(); 
+  item.addEventListener("click", (e) => {
+    e.preventDefault();
 
     const targetId = item.getAttribute("href").substring(1);
+
+    // hide all sections
+    sections.forEach(section => {
+      section.classList.remove("active");
+    });
+
+    // show selected section
     const targetSection = document.getElementById(targetId);
-
     if (targetSection) {
-      targetSection.scrollIntoView({ behavior: "smooth" });
+      targetSection.classList.add("active");
     }
-
-    menuBar.classList.remove("active");
   });
 });
-  </script>
+</script>
     <script src="../nitemoves/scripts/menuSync.js" charset="utf-8"></script>
     <script src="../nitemoves/scripts/mobileMenu.js" charset="utf-8"></script>
   </body>

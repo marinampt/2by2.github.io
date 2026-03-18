@@ -205,16 +205,6 @@ nav a {
 
 #menu-toggle {
   display: none;
-  position: fixed;
-  top: 16px;               /* distance from top */
-  right: 16px;             /* distance from right */
-  width: 40px;             /* fixed width */
-  height: 40px;            /* fixed height */
-  background: none;
-  border: none;
-  color: #f6f1ea;
-  cursor: url("/image/orange.cur"), auto;
-  z-index: 1100;
 }
 
 #menu-bar,
@@ -224,7 +214,7 @@ nav a {
 
 @media (max-width: 768px) {
   #menu-toggle {
-    display: block;
+    display: none;
     cursor: url("/image/orange.cur"), auto;
 
   }
@@ -242,21 +232,23 @@ nav a {
 
 @media (max-width: 768px) {
   #menu-bar {
-    display: none;
-    background-color: #000000;
-    font-size: 34pt;
-    line-height: 34pt;
-    position: fixed;
-    top: 0;
-    left: 6pt;
-    right: 6pt;      
-    border-left: 3pt solid #f6f1ea;
-    border-right: 3pt solid #f6f1ea;
-    box-sizing: border-box;  
-    width: auto;             
-    height: 100vh;           
-    overflow-y: auto;  
-    cursor: url("/image/orange.cur"), auto;     
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 18pt;
+  line-height: 18pt;
+  width: 130px;         
+  height: 100vh;
+  overflow-y: auto;
+  background: #000000;
+  border-left: 3pt solid #f6f1ea;  
+  overflow-y: auto;  
+  cursor: url("/image/orange.cur"), auto;     
+  }
+
+  main {
+      margin-left: 110px;        /* MUST MATCH menu width */
+  width: calc(100% - 110px);
   }
 }
 
@@ -266,8 +258,13 @@ main {
 }
 
 section {
+  display: none;
   margin: 0;
   padding: 0 0 28px 0;
+}
+
+section.active {
+  display: block;
 }
 
 .subsection {
