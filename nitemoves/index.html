@@ -575,12 +575,13 @@ menuItems.forEach(item => {
     if (targetSection) {
       targetSection.classList.add("active");
 
-      // 🔥 scroll to the top of that section
-      targetSection.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
+      // scroll to top of section
+      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
     }
+
+    // 🔹 update menu item colors
+    menuItems.forEach(i => i.classList.remove("active")); // reset all
+    item.classList.add("active"); // highlight clicked
   });
 });
     </script>

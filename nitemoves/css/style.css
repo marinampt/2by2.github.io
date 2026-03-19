@@ -247,7 +247,7 @@ nav a {
   }
 
   main {
-      margin-left: 110px;        /* MUST MATCH menu width */
+      margin-left: 110px;      
   width: calc(100% - 110px);
   }
 }
@@ -422,6 +422,10 @@ section.active {
   font-weight: bold;
   color: black;
   cursor: url("/image/orange.cur"), auto;
+}
+
+.menu-item.active {
+  color: blue;
 }
 
   .menu-button {
