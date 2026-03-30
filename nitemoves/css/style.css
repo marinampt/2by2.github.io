@@ -411,8 +411,6 @@ section.active {
     display: block;
   }
 
-
-
   nav {
     display: none;
     position: fixed;
@@ -445,6 +443,10 @@ section.active {
   flex-direction: column;
   z-index: 1000;
   cursor: url("/image/orange.cur"), auto;
+}
+
+#menu-bar a[href="#nite-description"] {
+    padding-left: 1em; 
 }
 
 .menu-bar .menu-item {
@@ -533,18 +535,23 @@ section.active {
 
 @media (max-width: 414px) {
   body {
-  font-family: "Symbola", Times, serif;
-  font-size: 18pt;
-  line-height: 18pt;
+    font-family: "Symbola", Times, serif;
+    font-size: 18pt;
+    line-height: 18pt;
 }
 
-  .door-drawing-bn {
-  position: fixed;
-  bottom: 20px;   
-  right: 16px;  
-  width: 40px;   
-  height: auto;
-  z-index: 1000; 
-  pointer-events: none; 
+
+#menu-bar a[href="#nite-description"] {
+    padding-left: 1em; 
+}
+
+.door-drawing-bn {
+   position: fixed;
+    bottom: 20px;   
+    right: 16px;  
+   width: 40px;   
+   height: auto;
+   z-index: 1000; 
+   pointer-events: none; 
 }
 }
