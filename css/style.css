@@ -802,8 +802,8 @@ footer {
 
     .custom-t {
         position: relative;
-        left: -4.75px;
-        letter-spacing: -10px; 
+        left: -4.8px;
+        letter-spacing: -8px; 
     }
 
     footer {
@@ -823,7 +823,7 @@ footer {
         font-size: 18pt;
         line-height: 18pt;
         position: fixed;
-        bottom: 18pt;
+        bottom: 20pt;
         right: 3pt;
         margin: 0;
         padding: 0;
