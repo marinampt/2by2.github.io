@@ -120,9 +120,10 @@ a {
 
 .text-description {
     font-family: "Symbola", sans-serif;
+    font-weight: bold;
     font-size: 34pt;
     line-height: 34pt;
-    margin: 40px auto;  
+    margin: 0pt auto;  
     color: #f6f1ea;
 }
 
@@ -254,15 +255,16 @@ nav a {
 
   .text-description {
     font-family: "Symbola", sans-serif;
+    font-weight: bold;
     font-size: 18pt;
     line-height: 18pt;
-    margin: 48px auto;  
+    margin: 0pt auto;  
     color: #f6f1ea;
 }
 
   main {
-      margin-left: 110px;      
-  width: calc(100% - 110px);
+    margin-left: 110px;      
+    width: calc(100% - 110px);
   }
 }
 

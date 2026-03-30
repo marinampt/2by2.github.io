@@ -157,6 +157,7 @@ p {
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
     color: #1300ff;
+    font-weight: bold;
 }
 
 p:hover {
@@ -164,6 +165,7 @@ p:hover {
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
     color: #f6f1ea;
+    font-weight: bold;
 }
 
 button {
@@ -436,6 +438,7 @@ footer {
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
         color: #1300ff;
+        font-weight: bold;
     }
     
     p:hover {
@@ -443,6 +446,7 @@ footer {
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
         color: #f6f1ea;
+        font-weight: bold;
     }
     
     button {
@@ -627,6 +631,7 @@ footer {
         line-height: 22pt;
         font-family: "Symbola", sans-serif;
         color: #1300ff;
+        font-weight: bold;
     }
     
     p:hover {
@@ -634,6 +639,7 @@ footer {
         line-height: 22pt;
         font-family: "Symbola", sans-serif;
         color: #f6f1ea;
+        font-weight: bold;
     }
 
     .custom-at {
@@ -784,6 +790,7 @@ footer {
         line-height: 18pt;
         font-family: "Symbola", sans-serif;
         color: #1300ff;
+        font-weight: bold;
     }
     
     p:hover {
@@ -791,6 +798,7 @@ footer {
         line-height: 18pt;
         font-family: "Symbola", sans-serif;
         color: #f6f1ea;
+        font-weight: bold;
     }
 
     .custom-at {
