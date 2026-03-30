@@ -69,6 +69,8 @@ body {
   font-weight: normal;
   font-size: 34pt;
   line-height: 34pt;
+  font-weight: normal;
+  font-style: normal;
   padding: 48px;
   display: grid;
   grid-template: "nav main" auto / 2fr 6fr;
@@ -135,6 +137,8 @@ button:visited {
     cursor: url("/image/orange.cur"), auto;
     font-size: 34pt;
     line-height: 34pt;
+    font-weight: normal;
+    font-style: normal;
 }
 
 button:hover {
@@ -142,6 +146,8 @@ button:hover {
     cursor: url("/image/orange.cur"), auto;
     font-size: 34pt;
     line-height: 34pt;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .no-spacing {
@@ -237,6 +243,8 @@ nav a {
   left: 6pt; 
   font-size: 18pt;
   line-height: 18pt;
+  font-weight: normal;
+  font-style: normal;
   width: 130px;         
   height: 100vh;
   overflow-y: auto;
@@ -382,6 +390,8 @@ section.active {
   * {
     font-size: 34pt;
     line-height: 34pt;
+    font-weight: normal;
+    font-style: normal;
   }
 }
 
@@ -515,8 +525,9 @@ section.active {
   body {
   font-family: "Symbola", Times, serif;
   font-weight: normal;
-  font-size: 15pt;
-  line-height: 15pt;
+  font-style: normal;
+  font-size: 20pt;
+  line-height: 20pt;
 }
 
   .door-drawing-bn {
