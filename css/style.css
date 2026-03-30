@@ -19,7 +19,7 @@ html, body {
     font-style: normal;
     font-stretch: normal;
     src: url(/nitemoves/type/Symbola_hint.woff) format('woff2'),
-   url(/nitemoves/type/Symbola_Hinted.ttf) format('woff')
+   url(/nitemoves/type/Symbola_hint.woff) format('woff')
 }
 
 * {
