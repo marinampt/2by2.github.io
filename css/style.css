@@ -200,7 +200,6 @@ button:hover {
     line-height: 1;
     font-size: 34pt;
     line-height: 34pt;
-    font-weight: bold;
 }
 
 .custom-at {
@@ -476,7 +475,6 @@ footer {
         line-height: 1;
         font-size: 26pt;
         line-height: 26pt;
-        font-weight: bold;
     }
     
     .custom-at {
@@ -635,8 +633,6 @@ footer {
         font-size: 22pt;
         line-height: 22pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #f6f1ea;
     }
 
