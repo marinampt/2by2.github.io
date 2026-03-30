@@ -118,6 +118,10 @@ a {
   text-decoration: none;
 }
 
+#menu-bar a[href="#nite-description"] {
+    padding-left: 1em; 
+}
+
 .text-description {
     font-family: "Symbola", sans-serif;
     font-weight: bold;
