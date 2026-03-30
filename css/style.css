@@ -126,8 +126,6 @@ h1 {
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
     padding-left: 3pt;
-    font-weight: normal;
-    font-style: normal;
     color: #f6f1ea;
 }
 
@@ -135,8 +133,6 @@ h2 {
     font-size: 34pt;
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     color: #1300ff;
 }
 
@@ -144,8 +140,6 @@ h2:link {
     font-size: 34pt;
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     color: #1300ff;
 }
 
@@ -162,8 +156,6 @@ p {
     font-size: 34pt;
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     color: #1300ff;
 }
 
@@ -171,8 +163,6 @@ p:hover {
     font-size: 34pt;
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     color: #f6f1ea;
 }
 
@@ -183,8 +173,6 @@ button {
     color: #f6f1ea;
     background-image: url("/image/IMG_2217.gif");
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     cursor: url("/image/orange.cur"), auto;
 }
 
@@ -250,8 +238,6 @@ footer {
     font-size: 34pt;
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     color: #f6f1ea;
     text-align: left;
     position: sticky;
@@ -270,8 +256,6 @@ footer {
     font-size: 34pt;
     line-height: 34pt;
     font-family: "Symbola", sans-serif;
-    font-weight: normal;
-    font-style: normal;
     color: #1300ff;
 }
 
@@ -414,8 +398,6 @@ footer {
         font-size: 26pt;
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #1300ff;
     }
     
@@ -424,8 +406,6 @@ footer {
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
         padding-left: 3pt;
-        font-weight: normal;
-        font-style: normal;
         color: #f6f1ea;
     }
     
@@ -433,8 +413,6 @@ footer {
         font-size: 26pt;
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #1300ff;
     }
     
@@ -442,8 +420,6 @@ footer {
         font-size: 26pt;
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #1300ff;
     }
 
@@ -460,8 +436,6 @@ footer {
         font-size: 26pt;
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #1300ff;
     }
     
@@ -469,8 +443,6 @@ footer {
         font-size: 26pt;
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #f6f1ea;
     }
     
@@ -481,8 +453,6 @@ footer {
         color: #f6f1ea;
         background-image: url("/image/IMG_2217.gif");
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         cursor: url("/image/orange.cur"), auto;
     }
     
@@ -526,8 +496,6 @@ footer {
         text-decoration: none;
         font-size: 26pt;
         line-height: 26pt;
-        font-weight: normal;
-        font-style: normal;
         cursor: url("/image/orange.cur"), auto;
     }
       
@@ -536,8 +504,6 @@ footer {
         text-decoration:underline;
         font-size: 28pt;
         line-height: 28pt;
-        font-weight: normal;
-        font-style: normal;
         cursor: url("/image/orange.cur"), auto;
     }
       
@@ -553,8 +519,6 @@ footer {
         font-size: 26pt;
         line-height: 26pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #f6f1ea;
         text-align: left;
         position: sticky;
@@ -656,8 +620,6 @@ footer {
         line-height: 18pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
-        font-weight: normal;
-        font-style: normal;
         text-decoration-thickness: 30pt;
         color: #1300ff;
     }
@@ -665,19 +627,13 @@ footer {
     p {
         font-size: 22pt;
         line-height: 22pt;
-        font-weight: normal;
-        font-style: normal;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #1300ff;
     }
     
     p:hover {
         font-size: 22pt;
         line-height: 22pt;
-        font-weight: normal;
-        font-style: normal;
         font-family: "Symbola", sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -688,8 +644,6 @@ footer {
         font-family: "Arial Narrow", sans-serif;
         font-size: 18pt;
         line-height: 22pt;
-        font-weight: normal;
-        font-style: normal;
         display: inline-block;
     }
 
@@ -709,16 +663,12 @@ footer {
         padding: 20px;
         font-size: 24pt;
         line-height: 24pt;
-        font-weight: normal;
-        font-style: normal;
         width: calc( 90% );
     }
 
     .close-x {
         font-size: 22pt;
         line-height: 22pt;
-        font-weight: normal;
-        font-style: normal;
         position: fixed;
         bottom: 3pt;
         right: 3pt; 
@@ -804,10 +754,8 @@ footer {
     
 
     a {
-        font-size: 15pt;
-        line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
+        font-size: 18pt;
+        line-height: 18pt;
     }
 
     img.door-drawing-m,
@@ -822,16 +770,12 @@ footer {
     }
 
     h1, h2, button {
-        font-size: 15pt;
-        line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
+        font-size: 18pt;
+        line-height: 18pt;
     }
 
     h3 {
         font-size: 9pt;
-        font-weight: normal;
-        font-style: normal;
         line-height: 17pt;
         font-family: "Symbola", sans-serif;
         text-decoration: line-through;
@@ -840,24 +784,16 @@ footer {
     }
 
     p {
-        font-size: 15pt;
-        line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
+        font-size: 18pt;
+        line-height: 18pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #1300ff;
     }
     
     p:hover {
-        font-size: 15pt;
-        line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
+        font-size: 18pt;
+        line-height: 18pt;
         font-family: "Symbola", sans-serif;
-        font-weight: normal;
-        font-style: normal;
         color: #f6f1ea;
     }
 
@@ -865,8 +801,6 @@ footer {
         font-family: "Arial Narrow", sans-serif;
         font-size: 11pt;
         line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
         display: inline-block;
     }
 
@@ -877,10 +811,8 @@ footer {
     }
 
     footer {
-        font-size: 15pt;
-        line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
+        font-size: 18pt;
+        line-height: 18pt;
     }
 
     .spacing {
@@ -888,16 +820,12 @@ footer {
         padding: 20px;
         font-size: 18pt;
         line-height: 18pt;
-        font-weight: normal;
-        font-style: normal;
         width: calc(90%);
     }
 
     .close-x {
-        font-size: 15pt;
-        line-height: 15pt;
-        font-weight: normal;
-        font-style: normal;
+        font-size: 18pt;
+        line-height: 18pt;
         position: fixed;
         bottom: 18pt;
         right: 3pt;
