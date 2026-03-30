@@ -461,8 +461,6 @@ section.active {
 
 @media (max-width: 500px) {
   body {
-    font-size: 34pt;
-    line-height: 34pt;
   }
 
   button {
@@ -492,4 +490,14 @@ section.active {
   body {
     padding: 28px;
   }
+}
+
+
+@media (max-width: 414px) {
+  body {
+  font-family: "Symbola", Times, serif;
+  font-weight: normal;
+  font-size: 15pt;
+  line-height: 15pt;
+}
 }
