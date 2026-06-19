@@ -442,7 +442,7 @@ section.active {
 }
 
 #menu-bar a[href="#nite-description"] {
-    padding-left: 1em; 
+    padding-left: 0em; 
 }
 
 .menu-bar .menu-item {
@@ -538,7 +538,7 @@ section.active {
 
 
 #menu-bar a[href="#nite-description"] {
-    padding-left: 1em; 
+    padding-left: 0em; 
 }
 
 .door-drawing-bn {
