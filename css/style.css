@@ -56,12 +56,11 @@ a:hover {
 }
 
 @font-face {
-    font-family: "Symbola", Times, serif;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    src: url(/type/Symbola_hint.woff) format('woff2'),
-   url(/type/Symbola_Hinted.ttf) format('woff')
+  font-family: "Symbola";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("/type/Symbola_hint.woff") format("woff");
 }
 
 body {
@@ -121,7 +120,7 @@ a {
 
 .text-description {
     font-family: "Symbola", Times, serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 34pt;
     line-height: 34pt;
     margin: -28pt auto;  
@@ -185,7 +184,8 @@ nav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  font-weight: bold;
+  font-family: "Symbola", Times, serif;
+  font-weight: normal;
   margin-left: 12pt;
   margin-top: 6pt;
   left: 0;
@@ -282,7 +282,7 @@ nav a {
 
   .text-description {
     font-family: "Symbola", Times, serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16pt;
     line-height: 16pt;
     margin: -18pt auto;  
@@ -442,6 +442,7 @@ section.active {
 
 @media (max-width: 768px) {
   body {
+    font-family: "Symbola", Times, serif;
     padding: 32px;
     display: block;
   }
@@ -473,7 +474,7 @@ section.active {
   margin-bottom: 12px;
   text-decoration: none;
   font-family: "Symbola", Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   color: black;
   cursor: url("/image/0/orange.cur"), auto;
 }
