@@ -606,6 +606,10 @@ section.active {
     width: 80%;
   }
 
+    #menu-bar .menu-item:last-child {
+    margin-bottom: 30px;
+  }
+}
 
 
 
@@ -640,5 +644,9 @@ section.active {
     margin-left: auto;
     margin-right: -16px;
     margin-bottom: 15pt;
+  }
+
+    #menu-bar .menu-item:last-child {
+    margin-bottom: 30px;
   }
 }
