@@ -311,6 +311,8 @@ section {
 
 section.active {
   display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .subsection {
@@ -325,6 +327,7 @@ section.active {
   max-width: 800px; 
   border: 3pt solid #f6f1ea;
   margin-bottom: 30pt;
+  margin-top: 0;
 }
 
 .single-image img {
@@ -371,22 +374,6 @@ section.active {
   width: 80px;
   z-index: 9999;     
   pointer-events: auto;
-}
-
-@media (max-width: 768px) {
-  main {
-    font-family: "Symbola", Times, serif;
-    font-weight: bold;
-    padding: 0;
-  }
-
-  .single-image,
-  .single-image.vertical-image {
-    max-width: 60vw;
-    margin-left: auto;
-    margin-right: -16px;
-    margin-bottom: 15pt;
-  }
 }
 
 @media (max-width: 1600px) {
@@ -464,8 +451,19 @@ section.active {
     cursor: url("/image/0/orange.cur"), auto;
   }
 
-  main {
+    main {
+    font-family: "Symbola", Times, serif;
+    font-weight: bold;
     padding: 0;
+  }
+
+  .single-image,
+  .single-image.vertical-image {
+    max-width: 60vw;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: -16px;
+    margin-bottom: 15pt;
   }
   
 #menu-bar a[href="#nite-description"] {
@@ -519,16 +517,13 @@ section.active {
   pointer-events: auto;
 }
 
-
 .menu-item.active {
   color: blue;
 }
 
-@media (max-width: 768px) {
   #menu-bar .menu-item:last-child {
     margin-bottom: 30px;
   }
-}
 
 .menu-button {
     height: auto;
