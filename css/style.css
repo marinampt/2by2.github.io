@@ -472,6 +472,7 @@ section.active {
   display: block;
   margin-bottom: 12px;
   text-decoration: none;
+  font-family: "Symbola", Times, serif;
   font-weight: bold;
   color: black;
   cursor: url("/image/0/orange.cur"), auto;
@@ -511,8 +512,6 @@ section.active {
 
 @media (max-width: 768px) {
   #menu-bar .menu-item:last-child {
-    font-family: "Symbola", Times, serif;
-   font-weight: normal;
     margin-bottom: 30px;
   }
 }
@@ -558,6 +557,42 @@ section.active {
   z-index: 1000; 
   pointer-events: auto;
 }
+
+  .single-image,
+  .single-image.vertical-image {
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: -16px;
+    margin-bottom: 15pt;
+  }
+
+  .menu-bar {
+  font-family: "Symbola", Times, serif;
+  font-weight: normal;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 30px;
+
+  overflow-y: auto;
+  padding: 16px;
+  padding-bottom: 80px;
+
+  box-sizing: border-box;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  z-index: 1000;
+
+  cursor: url("/image/0/orange.cur"), auto;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
   button {
     line-height: 24px;
   }
