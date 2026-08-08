@@ -647,3 +647,14 @@ section.active {
    pointer-events: auto;
 }
 }
+
+@media (max-width: 768px) {
+  .single-image,
+  .single-image.vertical-image {
+    width: 60vw;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: -16px;
+    margin-bottom: 15pt;
+  }
+}
