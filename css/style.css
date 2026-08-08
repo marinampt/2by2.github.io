@@ -61,7 +61,7 @@ a:hover {
     font-style: normal;
     font-stretch: normal;
     src: url(/type/Symbola_hint.woff) format('woff2'),
-   url(/type/Symbola_hint.woff) format('woff')
+   url(/type/Symbola_Hinted.ttf) format('woff')
 }
 
 body {
@@ -372,6 +372,8 @@ section.active {
 
 @media (max-width: 768px) {
   main {
+    font-family: "Symbola", Times, serif;
+    font-weight: normal;
     padding: 0;
   }
 
@@ -379,7 +381,7 @@ section.active {
   .single-image.vertical-image {
     max-width: 60vw;
     margin-left: auto;
-    margin-right: -14px;
+    margin-right: -16px;
     margin-bottom: 15pt;
   }
 }
@@ -462,7 +464,22 @@ section.active {
     padding: 0;
   }
   
+#menu-bar a[href="#nite-description"] {
+    padding-left: 0em; 
+}
+
+.menu-bar .menu-item {
+  display: block;
+  margin-bottom: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  cursor: url("/image/0/orange.cur"), auto;
+}
+
 .menu-bar {
+  font-family: "Symbola", Times, serif;
+  font-weight: normal;
   position: fixed;
   top: 0;
   left: 0;
@@ -487,18 +504,6 @@ section.active {
   -ms-overflow-style: none;
 }
 
-#menu-bar a[href="#nite-description"] {
-    padding-left: 0em; 
-}
-
-.menu-bar .menu-item {
-  display: block;
-  margin-bottom: 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  cursor: url("/image/0/orange.cur"), auto;
-}
 
 .menu-item.active {
   color: blue;
@@ -506,6 +511,8 @@ section.active {
 
 @media (max-width: 768px) {
   #menu-bar .menu-item:last-child {
+    font-family: "Symbola", Times, serif;
+   font-weight: normal;
     margin-bottom: 30px;
   }
 }
@@ -584,6 +591,7 @@ section.active {
 @media (max-width: 414px) {
   body {
     font-family: "Symbola", Times, serif;
+    font-weight: normal;
     font-size: 18pt;
     line-height: 18pt;
 }
