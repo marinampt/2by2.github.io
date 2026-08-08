@@ -56,7 +56,7 @@ a:hover {
 }
 
 @font-face {
-    font-family: "Symbola";
+    font-family: "Symbola", Times, serif;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -120,7 +120,7 @@ a {
 
 
 .text-description {
-    font-family: "Symbola", sans-serif;
+    font-family: "Symbola", Times, serif;
     font-weight: bold;
     font-size: 34pt;
     line-height: 34pt;
@@ -135,7 +135,7 @@ button {
     text-align: left;
     color: #f6f1ea;
     background-image: url("/image/IMG_2217.gif");
-    font-family: "Symbola", sans-serif;
+    font-family: "Symbola", Times, serif;
     cursor: url("/image/0/orange.cur"), auto;
 }
 
@@ -281,7 +281,7 @@ nav a {
   }
 
   .text-description {
-    font-family: "Symbola", sans-serif;
+    font-family: "Symbola", Times, serif;
     font-weight: bold;
     font-size: 16pt;
     line-height: 16pt;
@@ -330,6 +330,10 @@ section.active {
   display: block;
 }
 
+.single-image.vertical-image {
+  max-width: 500px;
+}
+
 .top-info {
   display: flex;
   justify-content: space-between;
@@ -367,8 +371,15 @@ section.active {
 }
 
 @media (max-width: 768px) {
-  .single-image {
+  main {
+    padding: 0;
+  }
+
+  .single-image,
+  .single-image.vertical-image {
     max-width: 60vw;
+    margin-left: auto;
+    margin-right: -14px;
     margin-bottom: 15pt;
   }
 }
@@ -493,7 +504,13 @@ section.active {
   color: blue;
 }
 
-  .menu-button {
+@media (max-width: 768px) {
+  #menu-bar .menu-item:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.menu-button {
     height: auto;
     cursor: url("/image/0/orange.cur"), auto;
 
