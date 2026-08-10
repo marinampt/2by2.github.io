@@ -122,13 +122,19 @@ a {
 
 
 .text-description {
-    font-family: "Symbola", Times, serif;
-    font-weight: bold;
-    font-size: 34pt;
-    line-height: 34pt;
-    margin: -28pt auto;  
-    color: #f6f1ea;
-    width: 80%;
+  font-family: "Symbola", Times, serif;
+  font-weight: bold;
+  font-size: 34pt;
+  line-height: 34pt;
+
+  width: 80%;
+  margin-top: -28pt;
+  margin-bottom: -28pt;
+  margin-left: auto;
+  margin-right: 0;
+
+  color: #f6f1ea;
+  text-align: left;
 }
 
 button {
@@ -324,16 +330,24 @@ section.active {
 }
 
 .single-image {
-  max-width: 800px; 
+  display: block;
+
+  width: min(800px, calc(100% + 7% - 26pt));
+  max-width: 800px;
+
   border: 3pt solid #f6f1ea;
-  margin-bottom: 30pt;
+
   margin-top: 0;
+  margin-bottom: 30pt;
+
+  margin-left: auto;
+  margin-right: calc(-26pt - 7%);
 }
 
 .single-image img {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
 }
 
 .single-image.vertical-image {
@@ -459,11 +473,24 @@ section.active {
 
   .single-image,
   .single-image.vertical-image {
+    display: block;
+
+    width: min(60vw, 100%);
     max-width: 60vw;
+
+    border: 3pt solid #f6f1ea;
+
     margin-top: 0;
+    margin-bottom: 15pt;
+
     margin-left: auto;
     margin-right: -16px;
-    margin-bottom: 15pt;
+  }
+
+  .single-image img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
   
 #menu-bar a[href="#nite-description"] {
