@@ -221,6 +221,10 @@ nav a {
   cursor: url("/image/0/orange.cur"), auto;
 }
 
+#menu-bar .menu-item.active {
+  color: blue !important;
+}
+
 .video-container {
   position: relative;
   width: 100%;
@@ -545,7 +549,7 @@ section.active {
 }
 
 .menu-item.active {
-  color: blue;
+  color: blue !important;
 }
 
   #menu-bar .menu-item:last-child {
