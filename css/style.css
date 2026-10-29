@@ -354,6 +354,12 @@ section.active {
   height: auto;
 }
 
+.single-image.no-border {
+  max-width: 800px;
+  border: none;
+
+}
+
 .single-image.vertical-image {
   max-width: 500px;
 }
