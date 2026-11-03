@@ -355,9 +355,8 @@ section.active {
 }
 
 .single-image.no-border {
-  max-width: 900px;
+  max-width: 600px;
   border: none;
-
 }
 
 .single-image.vertical-image {
